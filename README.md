@@ -6,23 +6,23 @@ Vamos a crear una app para seguir el puntero. En muchos portfolios que te habrá
 Lo que vamos a hacer realmente (y queremos) es ser capaces de detectar cuál es la posición del ratón en la pantalla porque vamos a querer seguirla y hacer un efecto que cada vez que se mueve junto nosotros.
 
 ## 2 COMPONENTES
--	FollowMouse.jsx
+FollowMouse.jsx
 
 Descripción:
 La funcionalidad total del puntero
 
--	useEventsListener.jsx
+useEventsListener.jsx
 
 Descripción:
 Es un customHook con el useEffect para lanzar el evento de escucha del puntero.
 
 ## 4 HOOKS (UseState (3), UseEffect (1))
 
-mount  activar o desactivar el componente ‘FollowMouse’
-enabled  activar o desactivar el puntero
-position  saber la posición del puntero (x, y)
+mount: activar o desactivar el componente ‘FollowMouse’
+enabled: activar o desactivar el puntero
+position: saber la posición del puntero (x, y)
 
-useEffect  para suscribirse al evento de seguir el puntero por el navegador.
+useEffect: para suscribirse al evento de seguir el puntero por el navegador.
 
 ## LÓGICA
 
