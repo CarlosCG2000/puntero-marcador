@@ -5,6 +5,16 @@ Vamos a crear una app para seguir el puntero. En muchos portfolios que te habrá
 
 Lo que vamos a hacer realmente (y queremos) es ser capaces de detectar cuál es la posición del ratón en la pantalla porque vamos a querer seguirla y hacer un efecto que cada vez que se mueve junto nosotros.
 
+### ESQUEMA
+<div align="center">
+  <img src="./public/esquema.png" alt="Esquema del proyecto" width="500"/>
+</div>
+
+### INTERFAZ
+<div align="center">
+  <img src="./public/3-puntero.png" alt="Esquema del proyecto" width="800"/>
+</div>
+
 ## 2 COMPONENTES
 FollowMouse.jsx
 
@@ -38,14 +48,4 @@ Creamos una función de evento que vaya modificando el estado del objeto.
 Creamos un useEffect donde aparte se recibe el tipo de enveto en este caso sería ‘pointermove’, la función del evento (nombrada justa anteriormente)y el valor del estado para activar o no. Gracias eso dentro useEffect creamos la suscripción (si el estado este true) y luego retornamos la limpieza o descripción.
 
 Todo esto lo podemos añadir dentro de un componente padre como (App) para crear otro estado y poder montar o desmontar la práctica.
-
-### ESQUEMA
-<div align="center">
-  <img src="./public/esquema.png" alt="Esquema del proyecto" width="500"/>
-</div>
-
-### INTERFAZ
-<div align="center">
-  <img src="./public/3-puntero.png" alt="Esquema del proyecto" width="800"/>
-</div>
 
